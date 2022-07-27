@@ -1,0 +1,20 @@
+.piece {
+    width: 110px;
+    height: 110px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: grid;
+    place-items: center;
+    background-size: 80px;
+}
+
+.pieceDragging {
+    /* background-color: yellow; */
+    cursor: grabbing;
+}
+
+.takeable {
+    width: 45px;
+    height: 45px;
+}

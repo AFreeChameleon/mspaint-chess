@@ -1,0 +1,46 @@
+.container {
+    width: fit-content;
+}
+
+.rowEven {
+    display: flex;
+}
+
+.rowOdd {
+    display: flex;
+}
+
+.square {
+    height: 110px;
+    width: 110px;
+    background-color: #eeeed2;
+    cursor: pointer;
+    display: grid;
+    place-items: center;
+}
+
+.square:hover {
+    background-color: #e3e1ba;
+}
+
+.rowEven .square:nth-child(even) {
+    background-color: #769656;
+}
+.rowEven .square:nth-child(even):hover {
+    background-color: #68854c;
+}
+
+.rowOdd .square:nth-child(odd) {
+    background-color: #769656;
+}
+.rowOdd .square:nth-child(odd):hover {
+    background-color: #68854c;
+}
+
+.marker {
+    width: 110px;
+    height: 110px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 80px;
+}

@@ -1,0 +1,7 @@
+.square:nth-child(even) + .draggingOver {
+    background-color: #452f25;
+}
+
+.square:nth-child(odd) + .draggingOver {
+    background-color: #452f25;
+}
